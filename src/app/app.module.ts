@@ -23,6 +23,7 @@ import { CasteComponent } from './caste/caste.component';
 import { IncomeComponent } from './income/income.component';
 import { BirthComponent } from './birth/birth.component';
 import { DeathComponent } from './death/death.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { DeathComponent } from './death/death.component';
     CasteComponent,
     IncomeComponent,
     BirthComponent,
-    DeathComponent
+    DeathComponent,
+    ChangePasswordComponent
   ],
   imports: [
     BrowserModule,
