@@ -15,6 +15,9 @@ import { DeathComponent } from './death/death.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { LocationFilterComponent } from './location-filter/location-filter.component';
 import { TimeFilterComponent } from './time-filter/time-filter.component';
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 
