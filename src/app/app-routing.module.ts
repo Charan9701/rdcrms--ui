@@ -10,6 +10,10 @@ import { IncomeComponent } from './income/income.component';
 import { BirthComponent } from './birth/birth.component';
 import { DeathComponent } from './death/death.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { LocationFilterComponent } from './location-filter/location-filter.component';
+import { TimeFilterComponent } from './time-filter/time-filter.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
+
 
 
 const routes: Routes = [
@@ -25,7 +29,9 @@ const routes: Routes = [
   { path: "caste", component:CasteComponent},
   { path: "income", component:IncomeComponent},
   { path: "birth", component:BirthComponent},
-  { path: "death", component:DeathComponent}
+  { path: "death", component:DeathComponent},
+  { path: "time-filter", component: TimeFilterComponent},
+  { path: "location-filter", component: LocationFilterComponent}
 ]},
 
 ];
