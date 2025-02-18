@@ -23,13 +23,10 @@ import { CasteComponent } from './caste/caste.component';
 import { IncomeComponent } from './income/income.component';
 import { BirthComponent } from './birth/birth.component';
 import { DeathComponent } from './death/death.component';
-<<<<<<< Updated upstream
-
-=======
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { TimeFilterComponent } from './time-filter/time-filter.component';
 import { LocationFilterComponent } from './location-filter/location-filter.component';
->>>>>>> Stashed changes
+
 
 @NgModule({
   declarations: [
@@ -45,14 +42,10 @@ import { LocationFilterComponent } from './location-filter/location-filter.compo
     CasteComponent,
     IncomeComponent,
     BirthComponent,
-<<<<<<< Updated upstream
-    DeathComponent
-=======
     DeathComponent,
     ChangePasswordComponent,
     TimeFilterComponent,
-    LocationFilterComponent
->>>>>>> Stashed changes
+    LocationFilterComponent,
   ],
   imports: [
     BrowserModule,
