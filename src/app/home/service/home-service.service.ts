@@ -12,6 +12,7 @@ export class HomeServiceService {
   constructor(private http: HttpClient) { }
 
   getLogin(aadhaarNumber: any, password: any): Observable<any> {
+    console.log("hi")
     const body = {
       aadhaarNumber: aadhaarNumber,
       password: password,
